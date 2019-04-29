@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h3>Post Form</h3>
 <!--<form action="<%= posts_path %>" method="POST">-->
 <!--  <label>Post title:</label><br>-->
@@ -23,3 +24,10 @@
  
   <%= submit_tag "Submit Post" %>
 <% end %>
+=======
+<ul>
+  <% @posts.each do |p| %>
+    <li><%= p.title %> - <%= p.description %></li>
+  <% end %>
+</ul>
+>>>>>>> 9e94dd490b3d2bf35cb51ef7947deea98e6d024b
